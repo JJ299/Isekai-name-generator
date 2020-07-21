@@ -27,18 +27,24 @@ body {
 
 .point {
 	float: right;
+	margin-right: 20rem ;
 	height: 60%;
 	width: 30%;
 }
 
 .question1 {
 	float: left;
+	
+	margin-left: 30rem;
+	margin-bottom: 10rem;
 	height: 25%;
 	width: 13%;
 }
 
 .question2 {
 	float: left;
+	
+	margin-left: 30rem;
 	height: 25%;
 	width: 13%;
 }
