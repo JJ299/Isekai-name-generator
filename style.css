@@ -14,3 +14,18 @@ body {
 	margin-top: 15rem;
 
 }
+
+.point {
+	float: right;
+	margin-right: 20rem;
+	height: 60%;
+	width: 30%;
+}
+
+.question {
+	float: left;
+	margin-left: 30rem;
+	padding-bottom: 80px;
+	height: 25%;
+	width: 13%;
+}
