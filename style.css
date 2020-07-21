@@ -1,10 +1,20 @@
+* {
+	box-sizing: border-box;
+}
+
 body {
-	height: 721px;
 	background: linear-gradient(0deg, rgba(65,247,192,1) 34%,
 				rgba(255,255,255,1) 90%),
 				rgb(65,247,192) no-repeat center;
 				
 }
+
+.main-footer {
+	padding: 1.5em 0;
+	background: #3acec2;
+	text-align: center;
+}
+
 
 .Isekai {
 	text-align: center;
@@ -17,23 +27,28 @@ body {
 
 .point {
 	float: right;
-	margin-right: 20rem;
 	height: 60%;
 	width: 30%;
 }
 
 .question1 {
 	float: left;
-	margin-left: 30rem;
-	padding-bottom: 80px;
 	height: 25%;
 	width: 13%;
 }
 
 .question2 {
 	float: left;
-	margin-left: 30rem;
-	padding-bottom: 80px;
 	height: 25%;
 	width: 13%;
 }
+
+.wrap {
+    min-height: calc(100vh - 89px);
+  }
+
+.container {
+	width: 70%;
+	max-width: 1000px;
+	margin: 0 auto;
+	}
